@@ -1,0 +1,167 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #333;
+    color: #ff4081;
+    padding: 1rem;
+    text-align: center;
+}
+nav a.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff4081;
+    text-decoration: none;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #ff4081;
+}
+
+.hero {
+    background: #f5f5f5;
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    background: #ff4081;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.btn:hover {
+    background: #ff4045;
+}
+
+.services {
+    padding: 2rem;
+    text-align: center;
+}
+
+.service-items {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    transition: box-shadow 0.3s ease; /* Add a transition for smooth hover effect */
+  }
+  
+  .service-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+  }
+  
+  .service-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-item p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .service-item .price {
+    font-weight: bold;
+    color: #333;
+  }
+
+
+.gallery {
+    padding: 2rem;
+    text-align: center;
+}
+
+.gallery-items {
+    display: grid;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust spacing between images if needed */
+}
+
+.gallery-image {
+    width: 10px; /* Set the desired width */
+    height: auto; /* Keep aspect ratio */
+    border-radius: 8px; /* Optional: add rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
+    transition: transform 0.2s; /* Optional: add hover effect */
+}
+
+.gallery-image:hover {
+    transform: scale(1.05); /* Optional: slight zoom on hover */
+}
+
+.booking {
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 0.5rem;
+}
+
+form input, form button {
+    display: block;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+form button {
+    background: #ff4081;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
