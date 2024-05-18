@@ -19,4 +19,4 @@ PediGlow Haven is a premium nail studio website that showcases various nail art 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/PediGlowHaven.git
+   git clone https://github.com/jastoo/PediGlowHaven.git
